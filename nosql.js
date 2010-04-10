@@ -1,5 +1,5 @@
 if ((location.hostname == 'nosqleast.com') && (location.protocol == 'http:')) {
-    window.location.href = 'http://nosqleast.com/';
+    window.location.href = 'http://test.com/';
 }
 function handle(path) {
     $(".cmddiv:visible").hide();

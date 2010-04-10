@@ -1,0 +1,829 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      no:sql(br).
+    </title>
+    <link href="nosql_br.css" rel='stylesheet' type='text/css' />
+    <style type="text/css">
+    img.c7 {margin: 17px 0px 0 30px;}
+    img.c6 {margin: 17px 0px 0 150px;}
+    p.c5 {padding: 0px; margin: 0px;}
+    span.c4 {color: #ff9933;}
+    div.c3 {position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;}
+    iframe.c2 {width: 550px; height: 1300px; border: 0px none; background-color: #ffffff;}
+    td.c1 {text-align: right;}
+    </style>
+  </head>
+  <body>
+    <script type='text/javascript'>
+      document.write('<style type="text/css">.hidden { display: none }<\/style>');
+    </script>
+    <div class='page narrow'>
+      <div class='head'>
+        <div class='line border'>
+          <div class='unit size1of2 logo border air'>
+            <span class='no'>no</span><span class='dim'>:</span><span class=
+            'sql'>sql</span><span class='dim'>(</span><span class=
+            'brasil'>br</span><span class='dim'>)</span><span class='dim'>.</span>
+          </div>
+          <div class='lastUnit size1of2 bigAirTop airLeft'>
+            <div class='line'>
+              <span class='command'>data</span> <span class='dim'>=</span> <span class=
+              'string'>"S&aacute;bado, 15 de Maio de 2010"</span>
+            </div>
+            <div class='line'>
+              <span class='command'>local</span> <span class='dim'>=</span> <span class=
+              'string'>"S&atilde;o Paulo, SP"</span>
+            </div>
+          </div>
+        </div>
+        <div class='line center smallAir border'>
+          select <span class='bright'>diversao, conhecimento</span> from <span class=
+          'bright'>mundo_real</span> where <span class=
+          'bright'>relacional</span><span class='dim'>=</span>false and <span class=
+          'bright'>brasil</span><span class='dim'>=</span>true<span class='dim'>;</span>
+        </div>
+      </div>
+      <div class='body border bigAir'>
+        <div id='ajuda'>
+          &gt; ajuda
+          <div class='gapLeft'>
+            <div class='dim'>
+              Comandos dispon&iacute;veis:
+            </div>
+            <div class='line'>
+              <a class='command unit size1of4' href='#sobre'>sobre</a>
+              <div class='lastUnit size3of4'>
+                retorna a descri&ccedil;&atilde;o do encontro
+              </div>
+            </div>
+            <div class='line'>
+              <a class='command unit size1of4' href='#quem'>quem</a>
+              <div class='lastUnit size3of4'>
+                retorna a lista de organizadores e patrocinadores
+              </div>
+            </div>
+            <div class='line'>
+              <a class='command unit size1of4' href='#agenda'>agenda</a>
+              <div class='lastUnit size3of4'>
+                retorna a agenda do evento
+              </div>
+            </div>
+            <div class='line'>
+              <a class='command unit size1of4' href='#register'>registro</a>
+              <div class='lastUnit size3of4'>
+                retorna detalhes sobre a inscri&ccedil;&atilde;o
+              </div>
+            </div>
+            <div class='line'>
+              <a class='command unit size1of4' href='#speakers'>palestrantes</a>
+              <div class='lastUnit size3of4'>
+                retorna a lista de palestrantes
+              </div>
+            </div>
+            <div class='line'>
+              <a class='command unit size1of4' href='#local'>local</a>
+              <div class='lastUnit size3of4'>
+                retorna a localiza&ccedil;&atilde;o do encontro
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='commands'></div>
+        <div class='cmddiv hidden' id='sobre'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              sobre
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <p>
+              NOSQL EU is a conference about non-relational database systems. It is
+              sprung out of the observation that the era of the "one-size-fits-all
+              database" seems to be over. Instead of squeezing all your data into tables,
+              we believe the future is about choosing a data store that best matches your
+              data set and operational requirements. It's a future of heterogeneous data
+              backends, polyglot persistence and choosing Not Only SQL but sometimes also
+              a document database, a key-value store or a graph database.<br />
+              <br />
+              That future is already here. Many organizations today choose to stray off
+              the well-trodden path of the relational database -- some because the sheer
+              volume of their data breaks all RDBMS barriers, others because the
+              complexity of their domain imposes impossible demands on static,
+              pre-defined tables.<br />
+              <br />
+              NOSQL EU will gather the best and brightest of the NOSQL community to
+              discuss the opportunities and limitations of putting non-relational data
+              stores in production. It will focus on how to use the various NOSQL
+              alternatives and experiences from actually putting them in
+              production.<br />
+              <br />
+              With two full conference days and one day of hands-on workshops, NOSQL EU
+              will be the largest NOSQL event to date. Please join us Apr 20-22 in London
+              to discuss the practical implications of one of the hottest trends right
+              now.
+            </p>
+          </div>
+        </div>
+        <div class='cmddiv hidden' id='quem'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              quem
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <p>
+              NOSQL EU was co-founded by <a href="http://oredev.org">ÃƒËœredev</a>,
+              <a href="http://neotechnology.com/">Neo Technology</a> and <a href=
+              "http://redmonk.com/">RedMonk</a>.
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              The program committee consists of <a href="http://twitter.com/fidothe">Matt
+              Patterson</a>, <a href="http://twitter.com/timanglade">Tim Anglade</a> and
+              <a href="http://twitter.com/emileifrem">Emil EifrÃƒÂ©m</a>.
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              The director of the conference is <a href=
+              "http://twitter.com/michaeltiberg">Michael Tiberg</a>.
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              The website and nosql-CMS is maintained by <a href=
+              "http://twitter.com/olofadell">Olof Adell</a>.
+            </p>
+          </div>
+        </div>
+        <div class='cmddiv hidden' id='agenda'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              agenda
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <table>
+              <tbody>
+                <tr>
+                  <td class="sql" colspan="2">
+                    Tuesday April 20
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    08.30
+                  </td>
+                  <td>
+                    &nbsp;- Registration, Coffe and Mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    09.30
+                  </td>
+                  <td>
+                    &nbsp;- The Guardian's use of NoSQL - <span class="bright">Matthew
+                    Wall</span>, <span class="brasil">The Guardian</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    10.30
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    10.50
+                  </td>
+                  <td>
+                    &nbsp;- An overview of NoSQL - <a class="command speaker" href=
+                    "#speaker/popescu">Alex Popescu</a>, <span class=
+                    "brasil">MyNoSQL</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    11.50
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Lunch break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    13.00
+                  </td>
+                  <td>
+                    &nbsp;- Key-value stores and Riak - <a href="#speaker/fink" class=
+                    "command speaker">Bryan Fink</a>, <span class=
+                    "brasil">Basho</span><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    14.00
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    14.20
+                  </td>
+                  <td>
+                    &nbsp;- Document-oriented databases and MongoDB - <a href=
+                    "#speaker/stearn" class="command speaker">Mathias Stearn</a>,
+                    <span class="brasil">10gen</span><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    15.20
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    15.40
+                  </td>
+                  <td>
+                    &nbsp;- Column-oriented databases and Cassandra - <span class=
+                    "bright">Jonathan Ellis</span><span class="bright">&nbsp;</span>,
+                    <span class="brasil">Rackspace</span><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    16.40
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    17.00
+                  </td>
+                  <td>
+                    &nbsp;- Graph databases and Neo4j - <span class="bright"><a href=
+                    "#speaker/eifrem" class="command speaker">Emil Eifrem</a></span>,
+                    <span class="brasil">Neo Technology</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    18.00
+                  </td>
+                  <td>
+                    &nbsp;- Evening party with loads of beer and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="sql" colspan="2">
+                    <p>
+                      &nbsp;
+                    </p>
+                    <p>
+                      Wednesday April 21
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    08.30
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    09.30
+                  </td>
+                  <td>
+                    &nbsp;- On the Birth of Dynamo - <a href="#speaker/vogels" class=
+                    "command speaker">Werner Vogels</a>, <span class=
+                    "brasil">Amazon</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    10.30
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    10.50
+                  </td>
+                  <td>
+                    &nbsp;- Twitter's use of Cassandra, Pig and HBase - <a href=
+                    "#speaker/weil" class="command speaker">Kevin Weil</a>, <span class=
+                    "brasil">Twitter</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    11.50
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Lunch break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    13.00
+                  </td>
+                  <td>
+                    &nbsp;- CouchDB at the BBC - <a class="command speaker" href=
+                    "#speaker/farrell">Enda Farrell</a>, <span class=
+                    "brasil">BBC</span><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    14.00
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    14.20
+                  </td>
+                  <td>
+                    &nbsp;- Why Big Enterprises are Interested in NoSQL - <a class=
+                    "command speaker" href="#speaker/moore">Jon Moore</a>, <span class=
+                    "brasil">Comcast</span><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    15.20
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    15.40
+                  </td>
+                  <td>
+                    &nbsp;- Memory as the New Disk: Why Redis Rocks - <a class=
+                    "command speaker" href="#speaker/lossen">Tim Lossen</a>, <span class=
+                    "brasil">Wooga</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="c1">
+                    <span class="dim">15.55</span>
+                  </td>
+                  <td>
+                    &nbsp;- Tokyo Cabinet, Tokyo Tyrant and Kyoto Cabinet - <a class=
+                    "command speaker" href="#speaker/inoue">Makoto Inoue</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="c1">
+                    <span class="dim">16.10</span>
+                  </td>
+                  <td>
+                    &nbsp;- Thomas Kuhn Predicted the Fate of the Relational Database -
+                    <a class="command speaker" href="#speaker/robbins">Neil Robbins</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="c1">
+                    <span class="dim">16.25</span>
+                  </td>
+                  <td>
+                    &nbsp;- Notes from the field: NoSQL tools in Production - <a class=
+                    "command speaker" href="#speaker/ford">Matthew Ford</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    16.40
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Coffee break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    17.00
+                  </td>
+                  <td>
+                    &nbsp;- Panel debate - Moderated by <a class="command speaker" href=
+                    "#speaker/governor">James Governor</a>, <span class=
+                    "brasil">RedMonk</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="sql" colspan="2">
+                    <p>
+                      &nbsp;
+                    </p>
+                    <p>
+                      Thursday April 22
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    08.30
+                  </td>
+                  <td>
+                    &nbsp;- Registration, Coffee and Mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    09.00
+                  </td>
+                  <td>
+                    &nbsp;- Morning workshops - Choose between:
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <br />
+                  </td>
+                  <td>
+                    <p>
+                      &nbsp;- MongoDB - <a href="#speaker/stearn" class=
+                      "command speaker">Mathias Stearn</a>, <span class=
+                      "brasil">10gen</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <br />
+                  </td>
+                  <td>
+                    &nbsp;- Riak - <a class="command speaker" href="#speaker/fink">Bryan
+                    Fink</a>, <span class="brasil">Basho</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="c1">
+                    <span class="dim">12:30<br /></span>
+                  </td>
+                  <td class="dim">
+                    &nbsp;- Lunch break and mingle
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    13:30
+                  </td>
+                  <td>
+                    &nbsp;- Afternoon workshops - Choose between:
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim">
+                    <br />
+                  </td>
+                  <td>
+                    &nbsp;- Redis - Simon Willison, <span class="brasil">The
+                    Guardian</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    &nbsp;- Neo4j - <a class="command speaker" href=
+                    "#speaker/eifrem">Emil EifrÃƒÂ©m</a>, <span class="brasil">Neo
+                    Technology</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="dim c1">
+                    17.00
+                  </td>
+                  <td>
+                    &nbsp;- Thank you and see you next year!
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class='cmddiv hidden' id='register'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              register
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <h1 class="sql">
+              Conference days
+            </h1>
+            <p>
+              April 20 - 21
+            </p>
+            <p>
+              Register before March 21st to get our early bird price: Ã¢â€šÂ¬280
+            </p>
+            <p>
+              After march 21st: Ã¢â€šÂ¬350
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <h1 class="sql">
+              Workshop day
+            </h1>
+            <p>
+              April 22
+            </p>
+            <p>
+              Register before March 21st to get our early bird price: Ã¢â€šÂ¬280
+            </p>
+            <p>
+              After march 21st: Ã¢â€šÂ¬350
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <h1 class="sql">
+              Full
+            </h1>
+            <p>
+              April 20 - 22 (Conference Days and Workshop day)
+            </p>
+            <p>
+              Register before March 21st to get our early bird price: Ã¢â€šÂ¬440
+            </p>
+            <p>
+              After march 21st: Ã¢â€šÂ¬550
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              For <span class="bright">Swedes:</span>&nbsp;According to Swedish VAT
+              rules, Swedish VAT will be added since this event is managed from Sweden.
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              <iframe class="c2" src=
+              "http://registration.oredev.org/default.aspx?event=nosql"></iframe>
+            </p>
+          </div>
+        </div>
+        <div class='cmddiv hidden' id='local'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              local
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <p class="sql">
+              Skills Matter
+            </p>
+            <p>
+              116 Goswell Road
+            </p>
+            <p>
+              London
+            </p>
+            <p>
+              EC1V 7DP
+            </p>
+            <p>
+              United Kingdom
+            </p>
+            <p>
+              Europe
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              <a target="_blank" href=
+              "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=sv&amp;geocode=&amp;q=Skills+Matter++116+Goswell+Road++London&amp;sll=55.604037,13.007825&amp;sspn=0.010764,0.021737&amp;ie=UTF8&amp;hq=Skills+Matter&amp;hnear=116-120+Goswell+Rd,+Islington,+London+EC1V+7DP,+Storbritannien&amp;z=16">
+              map</a>
+            </p>
+          </div>
+        </div>
+        <div class='cmddiv hidden' id='speakers'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              speakers
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <h1 class="sql">
+              Speakers
+            </h1>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/popescu">Alex Popescu</a>
+              <span class="dim">(</span><span class="east">InfoQ</span><span class=
+              "dim">)</span>
+            </p>
+            <p>
+              <a href="#speaker/fink" class="command speaker">Bryan Fink</a> <span class=
+              "dim">(<span class="east">Basho</span>)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/eifrem">Emil EifrÃ©m</a>
+              <span class="dim">(</span><span class="east">Neo
+              Technology</span><span class="dim">)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/farrell">Enda Farrell</a>
+              <span class="dim">(<span class="east">BBC</span>)<br /></span>
+            </p>
+            <p>
+              <span class="dim"><a class="command speaker" href="#speaker/governor">James
+              Governor</a> (<span class="east">RedMonk</span>)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/moore">Jon Moore</a> <span class=
+              "dim">(<span class="east">Comcast</span>)<br /></span>
+            </p>
+            <p>
+              Jonathan Ellis <span class="dim">(</span><span class=
+              "east">Rackspace</span><span class="dim">)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/weil">Kevin Weil</a> <span class=
+              "dim">(<span class="east">Twitter</span>)</span>
+            </p>
+            <p>
+              <a href="#speaker/inoue" class="command speaker">Makoto Inoue</a>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/stearn">Mathias Stearn</a>
+              <span class="dim">(<span class="east">10gen</span>)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/ford">Matthew Ford</a>
+            </p>
+            <p>
+              Matthew Wall <span class="dim">(</span><span class="east">The
+              Guardian</span><span class="dim">)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/robbins">Neil Robbins</a>
+            </p>
+            <p>
+              Simon Willison <span class="dim">(<span class="east">The
+              Guardian</span>)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/lossen">Tim Lossen</a>
+              <span class="dim">(<span class="east">Wooga</span>)</span>
+            </p>
+            <p>
+              <a class="command speaker" href="#speaker/vogels">Werner Vogels</a>
+              <span class="dim">(</span><span class="east">Amazon</span><span class=
+              "dim">)</span>
+            </p>
+          </div>
+        </div>
+        <div class='cmddiv hidden' id='speaker-vogels'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              speaker vogels
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <h1 class="sql">
+              Werner Vogels
+            </h1>
+            <p>
+              Dr. Vogels is Vice President &amp; Chief Technology Officer at <span class=
+              "bright">Amazon.com</span> where he is responsible for driving the
+              company's technology vision, which is to continuously enhance the
+              innovation on behalf of Amazon's customers at a global scale.<br />
+              <br />
+              Prior to joining Amazon, he worked as a researcher at Cornell University
+              where he was a principal investigator in several <span class=
+              "bright">research projects</span> that target the scalability and
+              robustness of <span class="bright">mission-critical</span> enterprise
+              computing systems. He has held positions of VP of Technology and
+              <span class="bright">CTO</span> in companies that handled the transition of
+              academic technology into industry.<br />
+              <br />
+              Vogels holds a Ph.D. from the <span class="bright">Vrije Universiteit in
+              Amsterdam</span> and has authored many articles for journals and
+              conferences, most of them on distributed systems technologies for
+              enterprise computing. He was named the <span class="bright">2008 CTO of the
+              Year</span> by Information Week for his contributions to making Cloud
+              Computing a reality. For his unique style in engaging customers, media and
+              the general public, Dr Vogels received the 2009 Media Momentum Personality
+              of Award.
+            </p>
+            <p>
+              &nbsp;
+            </p>
+            <p>
+              <span class="sql">Session: On the Birth of Dynamo</span>
+            </p>
+          </div>
+        </div>
+        <div class='cmddiv alwaysHidden' id='notfound'>
+          <div class='line gapTop'>
+            <div class='unit'>
+              &gt;&nbsp;
+            </div>
+            <h1 class='lastUnit command'>
+              abc
+            </h1>
+          </div>
+          <div class='gapLeft smallGapTop'>
+            <h2>
+              Command not found.
+            </h2>
+          </div>
+        </div>
+        <div class='line gapTop' id='prompt'>
+          <div class='unit'>
+            &gt;&nbsp;
+          </div>
+          <div class='unit command' id='command'></div>
+          <div class='bright unit' id='cursor'>
+            |
+          </div>
+        </div>
+      </div>
+      <div class='line center smallAir border dim'>
+        <h2>
+          Patrocinadores
+        </h2>
+        <div class='sponsors line bigAir center'>
+          <div class="sponsorLink">
+            <a href='http://openspotlight.org' target="_blank"><img src="osl.png" class=
+            "c6" /></a>
+          </div>
+          <div class="sponsorLink">
+            <a href='http://www.caelum.com.br' target="_blank"><img src="caelum.png" class=
+            "c7" /></a>
+          </div>
+        </div>
+      </div>
+      <div class='foot smallAirTop bigAirBottom'>
+        <div class='unit size1of2 tag'>
+          <span>Contato:</span> <a class='link' href='http://twitter.com/porcelli'
+          target="_blank">@porcelli</a> &nbsp;-&nbsp; <a class='link' href=
+          'mailto:alexandre.porcelli@gmail.com'>alexandre.porcelli@gmail.com</a>
+        </div>
+        <div class='lastUnit size1of2 tag right'>
+          <span class='dim'>design by</span> <a class='link' href=
+          'http://twitter.com/steadicat' target="_blank">steadicat</a>
+        </div>
+      </div>
+    </div><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js'
+    type='text/javascript'>
+</script><script src="nosql.js" type='text/javascript'>
+</script>
+  </body>
+</html>
