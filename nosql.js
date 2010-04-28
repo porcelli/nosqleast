@@ -1,5 +1,5 @@
-if ((location.hostname == 'nosqleast.com') && (location.protocol == 'http:')) {
-    window.location.href = 'http://test.com/';
+if ((location.hostname == 'nosqlbr.com') && (location.protocol == 'http:')) {
+    window.location.href = 'http://nosqlbr.com/';
 }
 function handle(path) {
     $(".cmddiv:visible").hide();
@@ -13,7 +13,7 @@ function handle(path) {
 
 $('a.command').live('mouseover', function() {
     $('#cursor').hide();
-    if ($(this).is('.speaker')) {
+    if ($(this).is('.palestrante')) {
         $('#command').text($(this).attr('href').replace('#','').replace('/', ' '));
     } else {
         $('#command').text($(this).text());
