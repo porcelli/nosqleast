@@ -1,4 +1,4 @@
-if ((location.hostname == 'nosqlbr.com') && (location.protocol == 'http:')) {
+if ((location.hostname == 'www.nosqlbr.com') && (location.protocol == 'http:')) {
     window.location.href = 'http://nosqlbr.com/';
 }
 function handle(path) {
