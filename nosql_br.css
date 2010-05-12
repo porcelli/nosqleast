@@ -281,5 +281,7 @@ body {
   display: none !important; }
 .right {
   text-align: right; }
+.left {
+  text-align: left; }
 .sponsorLink {
   float: left; }
