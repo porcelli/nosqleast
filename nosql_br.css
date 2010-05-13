@@ -285,3 +285,5 @@ body {
   text-align: left; }
 .sponsorLink {
   float: left; }
+.lineThrough {
+  text-decoration: line-through; }
